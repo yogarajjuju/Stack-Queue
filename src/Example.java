@@ -1,4 +1,5 @@
 import java.util.Stack;
+// Stack
 
 public class Example {
     public static void main(String[] args) {
@@ -9,6 +10,7 @@ public class Example {
         stack.push(80);
         stack.push(22);
         stack.push(21);
+        System.out.println(stack);
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
