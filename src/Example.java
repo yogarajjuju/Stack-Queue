@@ -10,6 +10,7 @@ public class Example {
         stack.push(80);
         stack.push(22);
         stack.push(21);
+        System.out.println(stack.size());
         System.out.println(stack);
         System.out.println(stack.pop());
         System.out.println(stack.pop());
@@ -17,6 +18,7 @@ public class Example {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
+        System.out.println(stack.size());
 
 
 
