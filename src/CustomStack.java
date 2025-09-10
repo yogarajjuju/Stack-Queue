@@ -50,11 +50,11 @@ public class CustomStack {
         return true;
     }
 
-    private boolean isFull() {
+    public boolean isFull() {
 
         return pointer== data.length-1;//pointer is at last index
     }
-    private boolean isEmpty() {
+    public boolean isEmpty() {
 
         return pointer== -1;
     }
