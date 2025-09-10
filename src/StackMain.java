@@ -3,7 +3,8 @@ import java.util.Arrays;
 
 public class StackMain {
     public static void main(String[] args)  throws StackException{
-        CustomStack stack= new CustomStack(5);
+//
+        DynamicStack stack= new DynamicStack(5);
 
         stack.push(50);
         stack.push(70);
