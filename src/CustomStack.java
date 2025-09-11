@@ -45,8 +45,8 @@ public class CustomStack {
 
 
 
-        pointer++;
-        data[pointer]=item;
+
+        data[++pointer]=item;
         return true;
     }
 
