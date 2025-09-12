@@ -32,6 +32,9 @@ public class Q {
 
 
 
+
+
+
     public boolean isEmpty(){
         return end==-1;
     }

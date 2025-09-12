@@ -1,6 +1,7 @@
 public class QueueMain {
     public static void main(String[] args) {
-        CustomQueue queue = new CustomQueue(5);
+//        CustomQueue queue = new CustomQueue(5);
+        Circularqueue queue = new Circularqueue();
 
             queue.insert(20);
         queue.insert(50);

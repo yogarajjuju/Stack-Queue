@@ -38,7 +38,7 @@ public class Circularqueue {
 
         int removed = data[front];
 
-        front=front%data.length;
+        front %= data.length;
         size--;
 
 
@@ -50,5 +50,19 @@ public class Circularqueue {
         }
         return data[front];
 
+    }
+    public void display() {
+        if(isEmpty()){
+            System.out.println("Empty");
+            return;
+        }
+
+        int i=front;
+        do{
+            System.out.print(data[i]+" ->");
+            i++;
+            i%= data.length;
+        } while(i!=end);
+        System.out.println("END");
     }
 }
